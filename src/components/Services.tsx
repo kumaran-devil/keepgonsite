@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
-import { Brain, Code, Wifi, Globe, Building, GraduationCap, Link } from 'lucide-react';
+import { Brain, Code, Wifi, Globe, Building, GraduationCap } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const sectionRef = useRef<HTMLElement>(null);
