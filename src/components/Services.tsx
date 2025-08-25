@@ -117,10 +117,11 @@ const Services = () => {
               Get Started Today
             </button> */}
             
-            <button className="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-white/90 transition-colors duration-300 shadow-medium hover:shadow-large"
-            onClick={() => {window.location.href = "/ProjectForm";}}>
+                        <Link to = "/ProjectForm">
+            <button className="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-white/90 transition-colors duration-300 shadow-medium hover:shadow-large">
               Get Started Today
             </button>
+            </Link>
             
           </div>
         </div>
