@@ -38,8 +38,12 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link
               to="/"
-              className="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300"
+              className="text-2xl font-bold flex items-center space-x-2 gradient-text hover:scale-105 transition-transform duration-300"
             >
+              <img
+                src="/favicon.ico"
+                className="w-8 h-8 object-contain"
+              />
               KeepGon
             </Link>
           </div>
