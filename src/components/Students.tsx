@@ -105,7 +105,7 @@ const Students = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground">Online Classes</h3>
                 <span className="ml-4 px-3 py-1 bg-success text-success-foreground text-sm font-semibold rounded-full">
-                  Starts from Rs.99/-
+                  Starts from Rs.99/- Only
                 </span>
               </div>
 
